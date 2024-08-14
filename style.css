@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'CursedTimerUlilFont';
+    src: url('fonts/CursedTimerUlil-Aznm.ttf') format('truetype');
+}
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.clock-container {
+    display: flex;
+    color: #91ff00;
+    font-family: 'CursedTimerUlilFont', sans-serif;
+    align-items: center;
+}
+
+#ClockDisplay {
+    display: flex;
+    align-items: center;
+    text-shadow: 0 0 10px rgb(145, 255, 0, 0.8),
+        0 0 20px rgba(145, 255, 0, 0.6),
+        0 0 30px rgba(145, 255, 0, 0.4),
+        0 0 40px rgba(145, 255, 0, 0.2);
+    font-size: 100px;
+}
+
+#AmPmDisplay {
+    display: flex;
+    align-items: center;
+    text-shadow: 0 0 20px rgba(145, 255, 0, 0.8),
+        0 0 20px rgba(145, 255, 0, 0.6),
+        0 0 30px rgba(145, 255, 0, 0.4),
+        0 0 40px rgba(145, 255, 0, 0.2);
+    font-size: 50px;
+}
